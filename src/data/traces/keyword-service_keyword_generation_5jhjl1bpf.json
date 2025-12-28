@@ -1,0 +1,24 @@
+{
+  "id": "5jhjl1bpf",
+  "timestamp": 1766840682459,
+  "duration": 0,
+  "service": "keyword-service",
+  "operation": "keyword_generation",
+  "status": "success",
+  "input": {
+    "asin": "REF001",
+    "title": "ProBrand Stainless Steel Water Bottle 32oz Insulated",
+    "price": 3,
+    "rating": 4.2,
+    "reviews": 1247
+  },
+  "output": [
+    "stainless steel water bottle insulated",
+    "vacuum insulated bottle 32oz",
+    "metal water bottle 32oz"
+  ],
+  "metadata": {
+    "reasoning": "Extracted key attributes: material (stainless steel), capacity (32oz), feature (insulated)",
+    "model": "mock-gpt-4"
+  }
+}

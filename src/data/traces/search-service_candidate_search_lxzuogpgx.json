@@ -1,0 +1,78 @@
+{
+  "id": "lxzuogpgx",
+  "timestamp": 1766840682456,
+  "duration": 0,
+  "service": "search-service",
+  "operation": "candidate_search",
+  "status": "success",
+  "input": {
+    "keywords": [
+      "stainless steel water bottle insulated",
+      "vacuum insulated bottle 32oz",
+      "metal water bottle 32oz"
+    ]
+  },
+  "output": [
+    {
+      "asin": "B001",
+      "title": "Hydro Flask 32oz Wide Mouth",
+      "price": 44.99,
+      "rating": 4.5,
+      "reviews": 8932
+    },
+    {
+      "asin": "B002",
+      "title": "Yeti Rambler 30oz",
+      "price": 34.99,
+      "rating": 4.4,
+      "reviews": 5621
+    },
+    {
+      "asin": "B003",
+      "title": "Generic Insulated Bottle",
+      "price": 12.99,
+      "rating": 3.8,
+      "reviews": 89
+    },
+    {
+      "asin": "B004",
+      "title": "Premium Titanium Bottle 32oz",
+      "price": 89,
+      "rating": 4.8,
+      "reviews": 234
+    },
+    {
+      "asin": "B005",
+      "title": "Stanley Adventure Quencher 40oz",
+      "price": 45,
+      "rating": 4.6,
+      "reviews": 7421
+    },
+    {
+      "asin": "B006",
+      "title": "Cheap Plastic Bottle",
+      "price": 5.99,
+      "rating": 2.9,
+      "reviews": 45
+    },
+    {
+      "asin": "B007",
+      "title": "Thermos Vacuum Insulated 32oz",
+      "price": 29.99,
+      "rating": 4.3,
+      "reviews": 3124
+    },
+    {
+      "asin": "B008",
+      "title": "Bottle Cleaning Brush Set",
+      "price": 12.99,
+      "rating": 4.6,
+      "reviews": 3421
+    }
+  ],
+  "metadata": {
+    "reasoning": "Mock search for keywords: stainless steel water bottle insulated, vacuum insulated bottle 32oz, metal water bottle 32oz. Returned 8 candidate products.",
+    "total_results_simulated": 2847,
+    "candidates_fetched": 8
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "id": "1uwtyued2",
+  "timestamp": 1766840682461,
+  "duration": 0,
+  "service": "ranking-service",
+  "operation": "filter_and_rank",
+  "status": "warning",
+  "input": {
+    "reference_product": {
+      "asin": "REF001",
+      "title": "ProBrand Stainless Steel Water Bottle 32oz Insulated",
+      "price": 3,
+      "rating": 4.2,
+      "reviews": 1247
+    },
+    "candidates_count": 8
+  },
+  "output": {
+    "fallback": true,
+    "message": "No competitor found"
+  },
+  "metadata": {
+    "reasoning": "No candidates passed all filters — filters were too strict given the reference price.",
+    "filters_applied": {
+      "price_range": {
+        "min": 1.5,
+        "max": 6
+      },
+      "min_rating": 3.8,
+      "min_reviews": 100
+    },
+    "evaluations": [
+      {
+        "asin": "B001",
+        "title": "Hydro Flask 32oz Wide Mouth",
+        "price": 44.99,
+        "rating": 4.5,
+        "reviews": 8932,
+        "passed": false,
+        "details": {
+          "price": {
+            "passed": false,
+            "actual": 44.99,
+            "range": [
+              1.5,
+              6
+            ]
+          },
+          "rating": {
+            "passed": true,
+            "actual": 4.5,
+            "threshold": 3.8
+          },
+          "reviews": {
+            "passed": true,
+            "actual": 8932,
+            "threshold": 100
+          }
+        }
+      },
+      {
+        "asin": "B002",
+        "title": "Yeti Rambler 30oz",
+        "price": 34.99,
+        "rating": 4.4,
+        "reviews": 5621,
+        "passed": false,
+        "details": {
+          "price": {
+            "passed": false,
+            "actual": 34.99,
+            "range": [
+              1.5,
+              6
+            ]
+          },
+          "rating": {
+            "passed": true,
+            "actual": 4.4,
+            "threshold": 3.8
+          },
+          "reviews": {
+            "passed": true,
+            "actual": 5621,
+            "threshold": 100
+          }
+        }
+      },
+      {
+        "asin": "B003",
+        "title": "Generic Insulated Bottle",
+        "price": 12.99,
+        "rating": 3.8,
+        "reviews": 89,
+        "passed": false,
+        "details": {
+          "price": {
+            "passed": false,
+            "actual": 12.99,
+            "range": [
+              1.5,
+              6
+            ]
+          },
+          "rating": {
+            "passed": true,
+            "actual": 3.8,
+            "threshold": 3.8
+          },
+          "reviews": {
+            "passed": false,
+            "actual": 89,
+            "threshold": 100
+          }
+        }
+      },
+      {
+        "asin": "B004",
+        "title": "Premium Titanium Bottle 32oz",
+        "price": 89,
+        "rating": 4.8,
+        "reviews": 234,
+        "passed": false,
+        "details": {
+          "price": {
+            "passed": false,
+            "actual": 89,
+            "range": [
+              1.5,
+              6
+            ]
+          },
+          "rating": {
+            "passed": true,
+            "actual": 4.8,
+            "threshold": 3.8
+          },
+          "reviews": {
+            "passed": true,
+            "actual": 234,
+            "threshold": 100
+          }
+        }
+      },
+      {
+        "asin": "B005",
+        "title": "Stanley Adventure Quencher 40oz",
+        "price": 45,
+        "rating": 4.6,
+        "reviews": 7421,
+        "passed": false,
+        "details": {
+          "price": {
+            "passed": false,
+            "actual": 45,
+            "range": [
+              1.5,
+              6
+            ]
+          },
+          "rating": {
+            "passed": true,
+            "actual": 4.6,
+            "threshold": 3.8
+          },
+          "reviews": {
+            "passed": true,
+            "actual": 7421,
+            "threshold": 100
+          }
+        }
+      },
+      {
+        "asin": "B006",
+        "title": "Cheap Plastic Bottle",
+        "price": 5.99,
+        "rating": 2.9,
+        "reviews": 45,
+        "passed": false,
+        "details": {
+          "price": {
+            "passed": true,
+            "actual": 5.99,
+            "range": [
+              1.5,
+              6
+            ]
+          },
+          "rating": {
+            "passed": false,
+            "actual": 2.9,
+            "threshold": 3.8
+          },
+          "reviews": {
+            "passed": false,
+            "actual": 45,
+            "threshold": 100
+          }
+        }
+      },
+      {
+        "asin": "B007",
+        "title": "Thermos Vacuum Insulated 32oz",
+        "price": 29.99,
+        "rating": 4.3,
+        "reviews": 3124,
+        "passed": false,
+        "details": {
+          "price": {
+            "passed": false,
+            "actual": 29.99,
+            "range": [
+              1.5,
+              6
+            ]
+          },
+          "rating": {
+            "passed": true,
+            "actual": 4.3,
+            "threshold": 3.8
+          },
+          "reviews": {
+            "passed": true,
+            "actual": 3124,
+            "threshold": 100
+          }
+        }
+      },
+      {
+        "asin": "B008",
+        "title": "Bottle Cleaning Brush Set",
+        "price": 12.99,
+        "rating": 4.6,
+        "reviews": 3421,
+        "passed": false,
+        "details": {
+          "price": {
+            "passed": false,
+            "actual": 12.99,
+            "range": [
+              1.5,
+              6
+            ]
+          },
+          "rating": {
+            "passed": true,
+            "actual": 4.6,
+            "threshold": 3.8
+          },
+          "reviews": {
+            "passed": true,
+            "actual": 3421,
+            "threshold": 100
+          }
+        }
+      }
+    ],
+    "qualified_count": 0
+  }
+}
